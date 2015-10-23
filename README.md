@@ -38,13 +38,12 @@ PLOT_KEYWORD_HIST = True         # do you want a histogram of the keywords?
 if FILTER_OVER_JOB_ID: job_ids_filter = [51388,51391,51554,51591,51624]
 
 # select your keywords
-
 keywords = ['theor', 'data-intensive', 'computational', 
             'galax','data science','statistics','simulations', 
             'high performance computing']
 ```
 
-### Deadlines specific to your needs
+### Deadlines specific to your jobs
 ![histogram](https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/jobs_left_timeline.png "Deadlines")  
 
 ### Keyword Histograms
