@@ -46,6 +46,10 @@ keywords = ['theor', 'data-intensive', 'computational',
 ### Deadlines specific to your jobs
 ![histogram](https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/jobs_left_timeline.png "Deadlines")  
 
+### Display In Browser
+
+![tables](https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/easyaasjobstable.png "jobs table")
+
 ### Keyword Histograms
 
 ![deadlines](https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/keywords.png "Keywords")
