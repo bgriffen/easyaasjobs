@@ -48,7 +48,7 @@ def plot_jobs_available(tsubset):
     dec1 = datetime.datetime(2015, 12, 1).timetuple().tm_yday - today
     dec15 = datetime.datetime(2015, 12, 14).timetuple().tm_yday - today
     
-    jan15 = datetime.datetime(2016, 1, 14).timetuple().tm_yday - today
+    #jan15 = datetime.datetime(2016, 1, 14).timetuple().tm_yday - today
     jan1 = 365 - today
 
     # time to plot
@@ -61,11 +61,11 @@ def plot_jobs_available(tsubset):
     xfill = np.linspace(-30,0,10)
     jobs_remaining = np.sum(days > 0)
     
-    ax.plot([nov15, nov15], [0, 100], ':', color='k',linewidth=2)
+    ax.plot([nov15, nov15], [0, 100], ':', color='b',linewidth=2,label='November 15')
     ax.plot([dec1, dec1], [0, 100], '--', color='b',linewidth=2,label='December 1')
-    ax.plot([dec15, dec15], [0, 100], ':', color='k',linewidth=2,label='December 15')
+    ax.plot([dec15, dec15], [0, 100], ':', color='r',linewidth=2,label='December 15')
     ax.plot([jan1, jan1], [0, 100], '--', color='r',linewidth=2,label='January 1')
-    ax.plot([jan15, jan15], [0, 100], ':', color='k',linewidth=2,label='January 15')
+    #ax.plot([jan15, jan15], [0, 100], ':', color='g',linewidth=2,label='January 15')
     
     ax.fill_between(xfill,0,1000, color="none", hatch="X", edgecolor="k")
 
