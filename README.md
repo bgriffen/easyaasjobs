@@ -17,3 +17,7 @@ Some instructions.
 
 ![histogram]("https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/jobs_left_timeline.png "Keyword histogram")
 ![deadlines]("https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/keyword.png "Deadlines")
+
+![histogram]("https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/jobs_left_timeline.png?raw=true "Keyword histogram")
+![deadlines]("https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/keyword.png?raw=true "Deadlines")
+
