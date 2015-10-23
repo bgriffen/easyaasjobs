@@ -15,6 +15,5 @@ Some instructions.
    which are of interest to you. Add those job ids to the job_ids_filter below.
 3. Re-run code with your jobids selected and create your deadline plot.
 
-![histogram]("https://github.com/bgriffen/easyads/blob/master/jobs_left_timeline.png "Keyword histogram")
-![deadlines]("https://github.com/bgriffen/easyads/blob/master/keyword.png "Deadlines")
-
+![histogram]("https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/jobs_left_timeline.png "Keyword histogram")
+![deadlines]("https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/keyword.png "Deadlines")
