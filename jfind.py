@@ -17,19 +17,6 @@ def extract_and_format_AAS_sibling_entry(cup_of_soup, sub_tag_name):
         entry = unicode(formatted_content, errors='ignore')
     return entry
 
-def plot_keywords(dfk):
-    hist_dict = dict((key,val) for key,val in zip(dfk['keyword'],np.array(dfk['occurrence'])))
-    fig,ax = plt.subplots()
-    label_locs = np.arange(len(hist_dict))
-    ax.bar(label_locs, hist_dict.values(), align='center',alpha=0.5)
-    #ax.set_xticks(range(len(hist_dict)), hist_dict.keys())
-    ax.set_xticks(label_locs)
-    ax.set_xticklabels(hist_dict.keys(), rotation=90)
-    ax.set_xlim([label_locs[0]-1,label_locs[-1]+1])
-    ax.set_ylabel('number of times it occured in job descriptions')
-    ax.set_xlabel('keyword')
-    fig.savefig('./keywords.png',bbox_inches='tight',dpi=200)
-    plt.close(fig)
 
 def get_all_jobs(announce_path,abbriev_path,jobs_path):
 
