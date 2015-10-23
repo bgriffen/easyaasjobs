@@ -15,7 +15,6 @@ Some instructions.
    which are of interest to you. Add those job ids to the job_ids_filter below.
 3. Re-run code with your jobids selected and create your deadline plot.
 
-
 ```python
 # career options
 # select which jobs you would like
@@ -42,6 +41,14 @@ keywords = ['theor', 'data-intensive', 'computational',
             'galax','data science','statistics','simulations', 
             'high performance computing']
 ```
+
+To run: 
+
+```bash
+> python getastrojobs.py
+```
+
+Let it compile the data products first, then re-run for analysis.
 
 ### Deadlines specific to your jobs
 ![histogram](https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/jobs_left_timeline.png "Deadlines")  
