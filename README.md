@@ -15,6 +15,38 @@ Some instructions.
    which are of interest to you. Add those job ids to the job_ids_filter below.
 3. Re-run code with your jobids selected and create your deadline plot.
 
-![histogram](https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/jobs_left_timeline.png "Keyword histogram")  
 
-![deadlines](https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/keyword.png "Deadlines")
+```python
+# career options
+# select which jobs you would like
+WANT_FACULTY_JOBS = False
+WANT_POSTDOC_JOB = True
+WANT_PHD = False
+WANT_ENGINEERING_OR_TECHSTAFF_JOB = False
+WANT_MANAGEMENT_JOBS = False
+WANT_OTHER_JOBS = False
+
+# display/output options
+WANT_JOBS_PAST_DEADLINE = False  # do you want jobs past the deadline?
+OPEN_RESULTS_IN_BROWSER = True   # do you want a searchable table in browser?
+WANT_DEADLINE_PLOT = True        # do you want a timeline made?
+SELECT_OVER_KEYWORDS = True      # do you want to only include the keywords (in descriptions) selected below?
+FILTER_OVER_JOB_ID = False       # do you want only specific job ids (best to set once you've queried the keyword selected jobs)
+PLOT_KEYWORD_HIST = True         # do you want a histogram of the keywords?
+
+# select your filtered job ids
+if FILTER_OVER_JOB_ID: job_ids_filter = [51388,51391,51554,51591,51624]
+
+# select your keywords
+
+keywords = ['theor', 'data-intensive', 'computational', 
+            'galax','data science','statistics','simulations', 
+            'high performance computing']
+```
+
+### Deadlines specific to your needs
+![histogram](https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/jobs_left_timeline.png "Deadlines")  
+
+### Keyword Histograms
+
+![deadlines](https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/keywords.png "Keywords")
