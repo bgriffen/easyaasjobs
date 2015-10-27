@@ -53,7 +53,7 @@ Let it compile the data products first, then re-run for analysis.
 ### Deadlines specific to your jobs
 ![histogram](https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/jobs_left_timeline.png "Deadlines")  
 
-### Display In Browser
+### Display All Your Jobs In One Table (In Browser)
 
 ![tables](https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/easyaasjobstable.png "jobs table")
 
