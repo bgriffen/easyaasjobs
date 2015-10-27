@@ -54,6 +54,7 @@ Let it compile the data products first, then re-run for analysis.
 ![histogram](https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/jobs_left_timeline.png "Deadlines")  
 
 ### Display All Your Jobs In One Table (In Browser)
+Note the days_left column which tells you how to prioritize upcoming deadlines.
 
 ![tables](https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/easyaasjobstable.png "jobs table")
 
