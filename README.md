@@ -1,4 +1,4 @@
-Code for finding/organizing jobs on the AAS job register.
+Code for finding/organizing jobs on the (AAS job register)[https://jobregister.aas.org/].
 
 Author: Brendan Griffen (@brendangriffen)  
 
